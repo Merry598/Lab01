@@ -1,0 +1,210 @@
+.banner {
+  width: 90%;
+  height: 200px;
+  border: 3px solid green;
+  margin: auto;
+  background-size: 100% 100%;
+  animation: frecuencia 15s infinite;
+  animation-direction: alternate; }
+
+@keyframes frecuencia {
+  0%, 15% {
+    background-image: url(../imagenes/computers.jpg);
+    opacity: 1; }
+  16%, 18% {
+    opacity: 1; }
+  19%, 30% {
+    background-image: url(../imagenes/ingenieria01.jfif);
+    opacity: 1; }
+  31%, 50% {
+    background-image: url(../imagenes/ingenieria02.jpg);
+    opacity: 1; }
+  51%, 70% {
+    background-image: url(../imagenes/procesos.png);
+    opacity: 1; }
+  71%, 75% {
+    opacity: 0.1; }
+  76%, 100% {
+    opacity: 1;
+    background-image: url(../imagenes/radial.jpg); } }
+p {
+  color: purple;
+  font-size: 10;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; }
+
+.main .articles {
+  width: 68.5%;
+  float: left;
+  background: aqua;
+  margin-right: 1.5px; }
+
+.main .articles articles {
+  padding: 20px;
+  margin-bottom: 20px; }
+
+aside {
+  width: 30%;
+  background: pink;
+  float: left;
+  padding: 20px;
+  box-sizing: border-box; }
+  aside img {
+    width: 90%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box; }
+  aside video {
+    width: 90%;
+    float: left;
+    padding: 20px; }
+
+.contenedor {
+  border-color: lime;
+  width: 30%;
+  height: 30%;
+  margin: 1% 1%; }
+
+footer {
+  background: fuchsia;
+  color: lime;
+  clear: both;
+  padding: 10px 0px;
+  text-align: center; }
+
+div#panel {
+  margin: 10px;
+  margin-top: 0;
+  width: 95%;
+  height: 300px;
+  border: 1px navy;
+  padding: 10px;
+  align-items: center; }
+
+div#izquierda img {
+  width: 100%;
+  height: 300px; }
+  div#izquierda img div#izquierda {
+    width: 33.33%;
+    float: left; }
+
+div#centro img {
+  width: 100%;
+  height: 300px; }
+  div#centro img div#centro {
+    width: 33%;
+    float: left; }
+
+div#derecha img {
+  width: 100%;
+  height: 300px; }
+
+div#derecha {
+  width: 33%;
+  float: left; }
+
+form {
+  margin: 10px;
+  border-radius: 15px;
+  border-color: navy;
+  text-decoration-color: orange;
+  font-size: 20px; }
+  form div {
+    padding: 15px;
+    color: orange;
+    background-color: teal; }
+
+.comentarios {
+  width: 100%;
+  height: 150px; }
+
+.textos {
+  width: 100%;
+  height: 20px;
+  color: blue;
+  font-size: 15px; }
+
+#envio {
+  font-size: 30px;
+  background-color: olive;
+  color: blue;
+  padding: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 12;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
+
+.logo {
+  width: 200px;
+  height: 150px; }
+
+#ventana {
+  color: olive; }
+
+footer {
+  width: 90%;
+  max-width: 1000px;
+  background: white;
+  margin: auto; }
+
+header nav {
+  background: teal;
+  overflow: hidden; }
+
+header nav ul {
+  list-style: none; }
+
+header nav ul li {
+  float: left; }
+
+header nav ul li a {
+  padding: 10px 20px;
+  margin: 10px 20px;
+  font-size: 20px;
+  text-decoration: none;
+  background: pink;
+  color: purple;
+  display: block;
+  box-shadow: 0px 5px 0px lime;
+  border-radius: 15px; }
+
+header table tr td div {
+  border-radius: 15px; }
+
+header nav ul li a:link {
+  color: purple; }
+
+header nav ul li a:hover {
+  text-decoration-color: red;
+  font-size: 15px;
+  background: lime;
+  color: purple;
+  padding: 10px 20px;
+  box-shadow: 0px 3px 0px lime; }
+
+header nav ul li a:active {
+  background: orange;
+  box-shadow: none; }
+
+header nav ul li a:visited {
+  color: purple; }
+
+h1 {
+  color: lime;
+  font-size: 35px;
+  text-align: center; }
+
+h2 {
+  font-weight: bold;
+  font-style: oblique;
+  font-size: 30px;
+  color: purple;
+  background-color: orange;
+  border-radius: 15px;
+  text-align: center; }
+
+/*# sourceMappingURL=principal.css.map */
